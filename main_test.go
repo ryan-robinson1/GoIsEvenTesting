@@ -1,3 +1,11 @@
+/*
+    Ryan Robinson, 2021
+	
+    Simple testing and benchmarking for isEven function
+
+*/
+
+
 package main
 
 import (
