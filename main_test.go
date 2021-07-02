@@ -109,7 +109,7 @@ func TestIsEven_MaxUpper64(t *testing.T) {
 	}
 }
 
-//Tests parity of function on the lower bound of int64, which is known to be odd, if the machine's int type is 64 bits
+//Tests parity of function on the lower bound of int64, which is known to be even, if the machine's int type is 64 bits
 func TestIsEven_MaxLower64(t *testing.T) {
 	if strconv.IntSize == 64 {
 		in := math.MinInt64
